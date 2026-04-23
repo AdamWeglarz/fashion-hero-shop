@@ -19,11 +19,11 @@ export default function EditHomePage() {
       {/* Hero Section */}
       <EditHero />
 
-      {/* Select Sellers Section */}
+      {/* Select Brands Section */}
       <section className="bg-edit-ivory py-20 px-8">
         <EditSectionLabel
-          label="SELECT SPRZEDAWCY"
-          subtitle="Poznaj ich, nie tylko ich produkty."
+          label="SELECT MARKI"
+          subtitle="Marki warte zatrzymania się. Wyselekcjonowane. Zweryfikowane. Tylko tutaj."
         />
         <div className="max-w-6xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
           {sellers.map((seller) => (

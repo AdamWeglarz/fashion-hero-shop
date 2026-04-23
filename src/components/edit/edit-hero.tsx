@@ -25,15 +25,15 @@ export function EditHero() {
       <div className="absolute inset-0 flex items-center">
         <div className="pl-[8%] max-w-xl">
           {/* Season Label */}
-          <span className="block text-[12px] font-light tracking-[0.3em] text-edit-gold uppercase mb-4">
+          <span className="block text-[12px] font-light tracking-[0.3em] text-white uppercase mb-4">
             SEZON 01
           </span>
           
           {/* Gold Separator */}
-          <span className="block w-10 h-[1px] bg-edit-gold mb-8" />
+          <span className="block w-10 h-[1px] bg-white mb-8" />
           
           {/* Main Heading */}
-          <h1 className="font-serif text-[72px] leading-[1.1] text-edit-ivory mb-10">
+          <h1 className="font-serif text-[72px] leading-[1.1] text-white mb-10">
             Wybrane.
             <br />
             Nieoczywiste.
@@ -44,9 +44,9 @@ export function EditHero() {
           {/* CTA Button */}
           <Link
             href="/edit/collection"
-            className="inline-block px-8 py-3 text-[12px] font-light tracking-[0.15em] text-edit-ivory border border-edit-ivory hover:border-edit-gold hover:text-edit-gold transition-colors duration-300"
+            className="inline-block px-8 py-3 text-[12px] font-light tracking-[0.15em] text-white border border-white hover:border-edit-gold hover:text-edit-gold transition-colors duration-300"
           >
-            ODKRYJ KOLEKCJĘ
+            ODKRYJ KOLEKCJE
           </Link>
         </div>
       </div>

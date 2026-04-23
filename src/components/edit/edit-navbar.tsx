@@ -21,7 +21,7 @@ export function EditNavbar() {
             href="/edit/collection"
             className="text-[12px] font-light tracking-[0.15em] text-edit-graphite hover:text-edit-gold transition-colors"
           >
-            KOLEKCJA
+            KOLEKCJE
           </Link>
           <Link
             href="/edit/sellers"
