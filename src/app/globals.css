@@ -9,6 +9,8 @@
   --color-foreground: var(--foreground);
   --font-sans: "Geist", "Geist Fallback", system-ui, -apple-system, sans-serif;
   --font-heading: var(--font-sans);
+  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-edit: var(--font-montserrat), "Montserrat", system-ui, sans-serif;
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
@@ -41,6 +43,15 @@
   --color-charcoal-light: #333333;
   --color-warm-gray: #6b6b6b;
   --color-footer-bg: #212121;
+
+  /* FH Edit premium sub-brand colors */
+  --color-edit-ivory: #F5F0E8;
+  --color-edit-graphite: #1A1A1A;
+  --color-edit-gold: #C9A84C;
+  --color-edit-card-bg: #EDEAE0;
+  --color-edit-fallback-bg: #EDE8DE;
+  --color-fh-white: #FFFFFF;
+  --color-fh-gray: #9CA3AF;
 }
 
 :root {
